@@ -1,0 +1,87 @@
+body {
+    background-image: url('/images/background2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.7);
+    height: auto;
+    
+    max-width: 800px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.transparent-form {
+    text-align: left;
+}
+
+.pie-chart-title {
+    margin-top: 20px;
+}
+
+.form-select {
+    background: #ccc;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 16px;
+    
+}
+
+#inputFields {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.input-group, .color-input {
+    margin: 15px 0;
+    text-align: left;
+    vertical-align: top;
+}
+.form-group {
+    margin-bottom: 15px; 
+}
+
+.color-input {
+    margin-left: 5px;
+}
+
+#pieChart {
+    margin-left: auto;
+    margin-left: 20px; 
+    display: inline-block;
+    max-width: 100%; 
+    height: auto;
+}
+
+.btnClass {
+    background-color: #e7e7e7; 
+    color: black;;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid gray;
+   
+  }
+  #generateButton {
+    margin-top:15px;
+    bottom: 110px;   
+
+  }
